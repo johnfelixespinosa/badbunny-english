@@ -59,13 +59,45 @@ export default function About() {
                 Just vibes and voice overlays.
               </p>
 
-              <a 
-                href="/prompts.md" 
-                target="_blank"
-                className="inline-block text-sm font-mono text-[#00A0D6] hover:underline"
-              >
-                📝 The prompts I used to get close to one-shotting this →
-              </a>
+              <div className="flex flex-col gap-2">
+                <a 
+                  href="/prompts.md" 
+                  target="_blank"
+                  className="inline-block text-sm font-mono text-[#00A0D6] hover:underline"
+                >
+                  📝 The prompts I used to get close to one-shotting this →
+                </a>
+                <a 
+                  href="/audio-prompts.md" 
+                  target="_blank"
+                  className="inline-block text-sm font-mono text-[#00A0D6] hover:underline"
+                >
+                  🎧 How I got the audio files →
+                </a>
+              </div>
+
+              {/* Tech Used */}
+              <div className="bg-gray-50 rounded-xl p-5 mt-4">
+                <p className="font-mono text-xs tracking-wider text-gray-500 uppercase mb-3">Built With</p>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                  <a href="https://openclaw.ai" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-2 p-3 bg-white rounded-lg hover:shadow-md transition-shadow">
+                    <span className="text-2xl">🦞</span>
+                    <span className="text-xs font-mono text-gray-600">OpenClaw</span>
+                  </a>
+                  <a href="https://claude.ai" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-2 p-3 bg-white rounded-lg hover:shadow-md transition-shadow">
+                    <span className="text-2xl">🧠</span>
+                    <span className="text-xs font-mono text-gray-600">Claude Code</span>
+                  </a>
+                  <a href="https://www.nanobanana.com" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-2 p-3 bg-white rounded-lg hover:shadow-md transition-shadow">
+                    <span className="text-2xl">🍌</span>
+                    <span className="text-xs font-mono text-gray-600">Nano Banana</span>
+                  </a>
+                  <a href="https://lalals.com" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-2 p-3 bg-white rounded-lg hover:shadow-md transition-shadow">
+                    <span className="text-2xl">🎤</span>
+                    <span className="text-xs font-mono text-gray-600">Lalals</span>
+                  </a>
+                </div>
+              </div>
 
               <div className="flex flex-wrap gap-2 py-3">
                 <span className="px-3 py-1.5 bg-gray-100 rounded-full text-sm font-mono text-gray-600">
