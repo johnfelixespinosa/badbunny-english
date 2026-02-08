@@ -115,9 +115,12 @@ export default function About() {
                 <span className="px-3 py-1.5 bg-gray-100 rounded-full text-sm font-mono text-gray-600">
                   Tinkerer
                 </span>
-                <span className="px-3 py-1.5 bg-[#E31C23]/10 rounded-full text-sm font-mono text-[#E31C23] border border-[#E31C23]/20">
+                <a 
+                  href="mailto:johnfelix.espinosa@icloud.com?subject=Hi%20John%20-%20Saw%20your%20Bad%20Bunny%20site"
+                  className="px-3 py-1.5 bg-[#E31C23]/10 rounded-full text-sm font-mono text-[#E31C23] border border-[#E31C23]/20 hover:bg-[#E31C23]/20 transition-colors"
+                >
                   Open to opportunities ✨
-                </span>
+                </a>
               </div>
             </div>
 
