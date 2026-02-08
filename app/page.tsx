@@ -161,7 +161,10 @@ export default function Home() {
                   Bad Bunny lyrics translated to English
                 </p>
               </div>
-              <div className="text-right">
+              <div className="text-right space-y-1">
+                <a href="/about" className="font-mono text-sm text-white hover:text-[#E31C23] transition-colors block">
+                  vibed by @jespn88 ✨
+                </a>
                 <p className="font-mono text-xs text-white/50">
                   Fan site • All rights belong to Bad Bunny & Rimas Entertainment
                 </p>
