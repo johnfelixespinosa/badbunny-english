@@ -41,29 +41,42 @@ export default function About() {
                 fill
                 className="object-cover"
               />
+              <div className="absolute bottom-3 right-3 bg-black/50 backdrop-blur px-3 py-1 rounded-full">
+                <span className="text-white text-xs font-mono">Arizona, 2023 🔥</span>
+              </div>
             </div>
 
             {/* Bio */}
             <div className="space-y-4 text-gray-700 mb-8">
               <p className="text-lg leading-relaxed">
-                I've been listening to Bad Bunny since I met my lovely Puerto Rican wife. 
-                We saw him live in Arizona a couple years ago — absolute 🔥
+                Married my beautiful Puerto Rican wife and she put me on to Bad Bunny. 
+                Been hooked ever since. That Arizona show? <em>Incredible.</em>
               </p>
               
               <p className="leading-relaxed">
-                My AI assistant <strong>Jazzy</strong> and I vibed this whole app together in a few hours 
-                using <a href="https://openclaw.ai" target="_blank" rel="noopener noreferrer" className="text-[#00A0D6] hover:underline">OpenClaw</a>.
+                Built this whole thing in a few hours with <strong>Jazzy</strong> 🎷 — my AI coding partner running on{" "}
+                <a href="https://openclaw.ai" target="_blank" rel="noopener noreferrer" className="text-[#00A0D6] hover:underline">OpenClaw</a>. 
+                Just vibes and voice overlays.
               </p>
 
-              <div className="flex flex-wrap gap-2 py-2">
-                <span className="px-3 py-1 bg-gray-100 rounded-full text-sm font-mono text-gray-600">
-                  YC Founder
+              <div className="flex flex-wrap gap-2 py-3">
+                <span className="px-3 py-1.5 bg-gray-100 rounded-full text-sm font-mono text-gray-600">
+                  👶 New Father
                 </span>
-                <span className="px-3 py-1 bg-gray-100 rounded-full text-sm font-mono text-gray-600">
+                <span className="px-3 py-1.5 bg-gray-100 rounded-full text-sm font-mono text-gray-600">
+                  Ex-YC
+                </span>
+                <span className="px-3 py-1.5 bg-gray-100 rounded-full text-sm font-mono text-gray-600">
                   AI Engineer
                 </span>
-                <span className="px-3 py-1 bg-[#E31C23]/10 rounded-full text-sm font-mono text-[#E31C23]">
-                  Open to opportunities
+                <span className="px-3 py-1.5 bg-gray-100 rounded-full text-sm font-mono text-gray-600">
+                  RoR
+                </span>
+                <span className="px-3 py-1.5 bg-gray-100 rounded-full text-sm font-mono text-gray-600">
+                  Tinkerer
+                </span>
+                <span className="px-3 py-1.5 bg-[#E31C23]/10 rounded-full text-sm font-mono text-[#E31C23] border border-[#E31C23]/20">
+                  Open to opportunities ✨
                 </span>
               </div>
             </div>
