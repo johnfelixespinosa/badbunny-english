@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Bad Bunny Fan Site | Música y Letras",
-  description: "Escucha las canciones más populares de Bad Bunny con letras sincronizadas. Fan site no oficial.",
-  keywords: ["Bad Bunny", "reggaeton", "música latina", "letras", "lyrics"],
-  authors: [{ name: "Fan Site" }],
+  title: "Learn what Bad Bunny's saying before the Super Bowl",
+  description: "Finally know what you're singing during the halftime show 🐰",
+  keywords: ["Bad Bunny", "Super Bowl", "halftime show", "English lyrics", "translations", "reggaeton"],
+  authors: [{ name: "jespn88" }],
   openGraph: {
-    title: "Bad Bunny Fan Site",
-    description: "Escucha las canciones más populares de Bad Bunny con letras",
+    title: "Learn what Bad Bunny's saying before the Super Bowl",
+    description: "Finally know what you're singing during the halftime show 🐰",
     type: "website",
   },
 };
@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
+    <html lang="en">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
