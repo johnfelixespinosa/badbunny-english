@@ -42,7 +42,7 @@ export default function About() {
                 className="object-cover"
               />
               <div className="absolute bottom-3 right-3 bg-black/50 backdrop-blur px-3 py-1 rounded-full">
-                <span className="text-white text-xs font-mono">Arizona, 2023 🔥</span>
+                <span className="text-white text-xs font-mono">Arizona, 2022 🔥</span>
               </div>
             </div>
 
@@ -58,6 +58,14 @@ export default function About() {
                 <a href="https://openclaw.ai" target="_blank" rel="noopener noreferrer" className="text-[#00A0D6] hover:underline">OpenClaw</a>. 
                 Just vibes and voice overlays.
               </p>
+
+              <a 
+                href="/prompts.md" 
+                target="_blank"
+                className="inline-block text-sm font-mono text-[#00A0D6] hover:underline"
+              >
+                📝 The prompts I used to get close to one-shotting this →
+              </a>
 
               <div className="flex flex-wrap gap-2 py-3">
                 <span className="px-3 py-1.5 bg-gray-100 rounded-full text-sm font-mono text-gray-600">
