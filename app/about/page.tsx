@@ -49,13 +49,6 @@ export default function About() {
             {/* Bio */}
             <div className="space-y-4 text-gray-700 mb-8">
               <p className="text-lg leading-relaxed">
-                Married my beautiful Puerto Rican wife and she put me on to Bad Bunny. 
-                Been hooked ever since. That Arizona show? <em>Incredible.</em>
-              </p>
-              
-              <p className="leading-relaxed">
-                Built this whole thing in a few hours with <strong>Jazzy</strong> 🎷 — my AI coding partner running on{" "}
-                <a href="https://openclaw.ai" target="_blank" rel="noopener noreferrer" className="text-[#00A0D6] hover:underline">OpenClaw</a>. 
                 Just vibes and perreo.
               </p>
 
