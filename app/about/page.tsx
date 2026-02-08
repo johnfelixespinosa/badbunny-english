@@ -56,7 +56,7 @@ export default function About() {
               <p className="leading-relaxed">
                 Built this whole thing in a few hours with <strong>Jazzy</strong> 🎷 — my AI coding partner running on{" "}
                 <a href="https://openclaw.ai" target="_blank" rel="noopener noreferrer" className="text-[#00A0D6] hover:underline">OpenClaw</a>. 
-                Just vibes and voice overlays.
+                Just vibes and perreo.
               </p>
 
               <div className="flex flex-col gap-2">
